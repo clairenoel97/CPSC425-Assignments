@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+"use strict"
+console.log("Hello World");
+alert("Another Hello");
+let someVariableName = "5";
+console.log(someVariableName);
+someVariableName = 1000 + 5;
+console.log(someVariableName);
+let a = someVariableName * 10;
+if (someVariableName == 5) {
+    console.log("it is")
+} else {
+    console.log("it isn't")
+}
+
+
+
+let c = "String";
+let d = "another"
+console.log(a + b);
+<!--to convert a string into a number, put a plus in front-->
++"100";
+
+
+
+let tim = [1,2,4, "test", 67.4];
+console.log(JSON.parse(JSON.stringify(tim)));
+console.log(tim[3]);
+tim[2] = "BOO!";
+tim.push(10);
+tim.push(10, 20, 30);
+
+
+
+
+for(let i = 0; i < 4; i++) {
+    tim.push(i);
+}
+
+while(tim[0] < 10) {
+    tim[0]++;
+}
+
+
+
+
+
+function doStuff() {
+    console.log("it ran");
+}
+
+doStuff();
+</script>
+</body>
+</html>
